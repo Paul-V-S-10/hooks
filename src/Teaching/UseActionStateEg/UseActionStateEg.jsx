@@ -53,6 +53,18 @@ const UseActionStateEg = () => {
               <input className='inputAgeRight' name='age' value={formValues.age} onChange={handleChange} type="text" />
             </div>
           </div>
+          <div className="contactNumber">
+            <div className="contactNumberLeft">Contact No:</div>
+            <div className="contactNumberRight">
+              <input className='inputContactNumberRight' type="text" />
+            </div>
+          </div>
+          <div className="email">
+            <div className="emailLeft">E-mail:</div>
+            <div className="emailRight">
+              <input className='inputEmailRight' type="text" />
+            </div>
+          </div>
           <div className='submit'>
             <button className='submitButton' onClick={handleSubmit}>Submit</button>
           </div>
